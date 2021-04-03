@@ -1,0 +1,138 @@
+@media only screen and (max-width: 1266px){
+    .navLists{
+        flex-direction:column;
+    }
+    .navbar{
+        height:480px;
+        flex-direction:column;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav{
+        width:40%;
+        text-align:center;
+    }
+    #search {
+        max-width: 80%;
+    }
+    .burger{display:block;}
+    .hNavResp{
+        height:72px;
+    }
+    .vClassResp{
+        opacity:0;
+    }
+   .box-main{
+       flex-direction: column-reverse;
+       max-width: 100%;
+   }
+   .about{
+      flex-direction: column-reverse;
+      height:100vh;
+      
+      align-items: center;
+      justify-content: center;
+     
+     background-color: #f2f2f2;
+    
+   }
+   .rc{
+    width: 400px;
+    height:250px;
+    
+}
+.rc img{
+    width: 400px;
+    height:250px;  
+}
+.lc{
+    
+    width: 400px;
+    height:320px;
+    border-radius:5px ;
+    
+}
+.about-txt{
+    text-align:center;
+    padding-top:10px;
+    
+}
+.about-txt p{
+   
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+   
+.text-big{
+    text-align: center;
+}
+.text-small{
+    text-align: center;
+}
+.buttons{
+    margin-top: 10px;
+    text-align: center;
+}
+/* <!-- Services --> */
+
+.section{
+    flex-direction:column-reverse;
+    padding:20px;
+}
+.para{
+    padding:0px;
+}
+
+.text-big-section{
+    padding-top:10px;
+    text-align: center;
+}
+/* <!--end  Services --> */
+
+.form textarea{
+   
+    width: 410px;
+    
+}
+.form{
+    text-align: center;
+}
+}
+@media only screen and (max-width: 600px){
+    .about{
+        flex-direction: column-reverse;
+        height:100vh;
+        
+        align-items: unset;
+       
+       background-color: #f2f2f2;
+      
+     }
+     .rc{
+      width: 400px;
+      height:250px;
+      
+  }
+  .rc img{
+      width: 400px;
+      height:250px;  
+  }
+  .lc{
+      
+      width: 400px;
+      height:320px;
+      border-radius:5px ;
+      
+  }
+  .about-txt{
+      text-align:center;
+      padding-top:10px;
+      
+  }
+  .about-txt p{
+     
+      font-size:20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+  
